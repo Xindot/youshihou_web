@@ -1,0 +1,544 @@
+@font-face { 
+	font-family: Hiragino Sans GB W3; 
+	src: url("../font/Hiragino+Sans+GB+W3.otf"); 
+} 
+/* 顶部 */
+html,body{
+	margin:0;
+	font-family:Hiragino Sans GB W3,"Microsoft YaHei",SimHei,sans-serif!important;
+	height: 100%;
+}
+.h5, h5 {
+    line-height: 23px;
+	color: #A2A4A6;
+	font-size: 15px;
+}
+.h3, h3 {
+    font-size: 24px;
+    color: #2D2E2E;
+	line-height: 40px;
+}
+
+
+/**自定义高度 水平垂直居中类**/
+.text-center-middle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height:500px;
+    line-height: 400px;
+}
+.header-top{
+    background-color: rgba(255, 255, 255, 0.9);
+	z-index: 1000;
+    line-height: 60px;
+	top:0;
+	transition:top .3s;
+}
+.col-sm-12.navbar-fixed-top.header-top.text-center {
+    position: absolute;
+}
+.gizle{
+	position:fixed;
+	top:-62px;
+}
+.sabit{
+	top:0;
+}
+.header-list .current a{
+    border-top: solid 1px #2D2E2E!important;
+    color: #2D2E2E!important;
+}
+.header-top ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.youshihou-logo {
+
+}
+.show-menu{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 60px;
+	color:#a2a4a6;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;	/* Firefox 4 */
+	-webkit-transition: all 0.5s;	/* Safari 和 Chrome */
+	-o-transition: all 0.5s;
+}
+.play-video{
+	position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 60px;
+	color:#a2a4a6;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;	/* Firefox 4 */
+	-webkit-transition: all 0.5s;	/* Safari 和 Chrome */
+	-o-transition: all 0.5s;
+}
+.play-video a{
+	color:rgba(255, 66, 0, 0.5);
+}
+.play-video a:hover{
+	color:#FF4200;
+}
+.show-menu:hover{
+	color: black;
+}
+
+.header-list a {
+    padding-top: 5px;
+    color: #a2a4a6;
+	font-size: 16px;
+	text-decoration: none;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;	/* Firefox 4 */
+	-webkit-transition: all 0.5s;	/* Safari 和 Chrome */
+	-o-transition: all 0.5s;
+}
+.header-list a:hover {
+    border-top: solid 1px #2D2E2E;
+    padding-top: 5px;
+    color: #2D2E2E;
+	text-decoration: none;
+}
+.header-list a:active {
+    border-top: solid 1px #2D2E2E;
+    padding-top: 5px;
+    color: #2D2E2E;
+	text-decoration: none;
+}
+.main-bigbg {
+	margin-top: 0px;
+    height: 100%;
+	background: url(../images/index_bg_image.png) no-repeat;
+	background-color: #F1F1F1;
+	background-position: center;
+/* 	background-attachment: fixed; */
+	background-size: cover;
+}
+.download-app {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    bottom:0;
+}
+.banner-aboutus-bg {
+	margin-top: 60px;
+    background-color:#FFF;
+}
+.banner-aboutus{
+    background-color:#D6895D;
+}
+.banner-aboutus img{
+    width:100%;
+	min-width:100%:
+}
+.aboutus-list {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.banner-joinus {
+    background-color: #F19E6B;
+}
+.banner-joinus img{
+    width:100%;
+	min-width:100%:
+}
+.main-zhaopin {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.main-zhaopin h4 {
+    color: #F52B00;
+}
+.zhaopin-list h4 span {
+    color: #2D2E2E;
+    border-top: solid 2px #2D2E2E;
+    border-bottom: solid 2px #2D2E2E;
+    padding: 5px;
+}
+.zhaopin-list {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.zhaopin-list li {
+    padding-top: 20px;
+}
+.contactus-list {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.download-block {
+    height: 500px;
+    line-height: 400px;
+    padding-top: 130px;
+}
+
+.main-video {
+	background-color: #E1E1E6;
+    padding-bottom: 50px;
+}
+.main-video img {
+    width: 100%;
+}
+.main-aboutus {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.main-aboutus h3 span {
+    color: #2D2E2E;
+    border-top: solid 8px #2D2E2E;
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.main-aboutus i {
+    color: #2D2E2E;
+}
+.main-aboutus h5 {
+    color: #616363;
+}
+.main-restaurant {
+    background-color: #F1F1F1;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.main-restaurant li img {
+    width: 100%;
+    padding-top: 10px;
+}
+.main-activity {
+    background-color: #E1E1E6;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.main-activity li img  {
+    width: 100%;
+    max-width: 294px;
+}
+.main-business {
+	padding-top: 10px;
+    padding-bottom: 50px;
+}
+.main-business h5 {
+    font-size: 16px;
+    color: #A2A4A6;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.main-business h3  {
+    margin-top: 80px;
+}
+.main-business h3 span {
+    color: #2D2E2E;
+    border-top: solid 8px #2D2E2E;
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.contactus-list h5{
+	margin-bottom: 15px;
+}
+.contactus-list h5  span{
+    border-bottom: solid 1px #A2A4A6;
+	padding-bottom: 5px;
+}
+
+
+.footer{
+    background-color: #353535;
+	color: rgba(255, 255, 255, 0.5);
+}
+.footer-list {
+    padding: 10px;
+}
+.footer-list a {
+    color: rgba(255, 255, 255, 0.5);
+	text-decoration: none;
+}
+.footer-list i {
+
+}
+
+p.weibo {
+	background: url(../images/common_logo_weibo.png)0 0 no-repeat;
+	width: 30px;
+    height: 30px;
+	background-size: cover;
+	background-color: #E6162D;
+    border-radius: 50px;
+}
+p.wechat {
+	background: url(../images/common_logo_wechat.png)0 0 no-repeat;
+	width: 30px;
+    height: 30px;
+	background-size: cover;
+	background-color: #3CAF36;
+    border-radius: 50px;
+}
+
+
+
+/**下载按钮从下向上渐入效果**/
+.download-block {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom:0;
+    -webkit-animation-name: fadeInOut1;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: linear;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-direction: alternate;
+}
+@-webkit-keyframes fadeInOut1 {
+    0% {
+        opacity:0;
+		bottom: -80px; 
+     }
+    25% {
+        opacity:1;
+		bottom:20px; 
+    }
+    50% {
+        opacity: 1;  
+		bottom: 0;	
+    }
+    75% {
+        opacity:0.6;
+    }
+}
+
+
+
+
+/**圆形加载效果 慢慢向外扩散**/
+.spinner {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  background-color: blue;
+  border-radius: 100%; 
+  -webkit-animation: scaleout 2.0s infinite ease-in-out;
+  animation: scaleout 2.0s infinite ease-in-out;
+}
+@-webkit-keyframes scaleout {
+  0% { -webkit-transform: scale(0.0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+@keyframes scaleout {
+  0% {
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 100% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+
+/**模态框样式**/
+.btn-download-app {
+    color: #fff;
+    background-color: #FF4200;
+    border-color: #FF4200;
+	border-radius: 4px;
+    min-width: 250px;
+	padding: 8px;
+    font-size: 18px;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;	/* Firefox 4 */
+	-webkit-transition: all 0.5s;	/* Safari 和 Chrome */
+	-o-transition: all 0.5s;
+}
+.btn-download-app:hover {
+    color: #fff;
+	letter-spacing:5px;
+}
+.btn-taobao-color {
+    color: #fff;
+    background-color: #FF4200;
+    border-color: #FF4200;
+	min-width:125px;	
+}
+.btn-taobao-color:hover{
+    color: #fff;	
+}
+.btn-taobao-color-border {
+    color: #FF4200;
+    background-color: #fff;
+    border-color: #FF4200;
+	min-width:125px;	
+}
+.btn-taobao-color-border:hover {
+    color: #FF4200;	
+}
+i.icon.icon-remove {
+    font-size:25px;
+}
+.modal {
+    position: fixed;
+    top: 10%;
+    left: 0;
+    right: 0;
+    bottom: initial;
+    margin: 0 auto;
+    width: 60%;
+	max-width: 500px;
+	min-width: 300px;
+    z-index: 9999;
+    background-color: #ffffff;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+
+.modal-body h4 img {
+    width: 50%;
+    max-width: 250px;
+    border-radius: 3px;
+    border:dashed 1px gray;
+}
+.modal-wechat {
+    position: fixed;
+    top: 40%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 200px;
+	height:200px;
+    z-index:9999;
+}
+
+.modal-wechat img {
+    width: 100%;
+    background-color: #ffffff;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+.modal-backdrop.in {
+    filter: alpha(opacity=80);
+    opacity: .8;
+}
+.modal-footer {
+	padding: 25px 0;
+	text-align: center;
+    border-top: 1px solid #e5e5e5;
+}
+p.copyright {
+    font-size: 12px;
+}
+
+.video-content {
+	padding: 0;
+	width:100%;
+	max-width:998px;
+	background:rgb(48, 48, 48);
+	border-radius: 0;
+}
+
+
+/* For tablets & smart phones */
+@media (max-width: 767px) {
+
+}
+
+/* For smartphones */
+@media (max-width: 480px) {
+.zhaopin-list li {
+    padding-top: 30px;
+}
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+/* For larger displays */
+@media (min-width: 1200px) {
+.width-1008 {
+	width: 1008px;
+	margin: 0 auto;
+}
+.main-business {
+	padding-top: 10px;
+	padding-bottom: 100px;
+}
+.dashed-line {
+	border-bottom:solid 1px #A2A4A6;
+	height: 240px;
+}
+
+.footer {
+    height: 356px;
+}
+.header-list a {
+	border-top: solid 1px #a2a4a6;
+}
+.aboutus-list li {
+	height: 200px;
+	padding-right: 30px;
+}
+.zhaopin-list li {
+    height: 300px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+p.copyright {
+    margin-top: 100px;
+}
+.footer-list {
+    margin-top: 50px;
+}
+
+}
+
+
+@media(min-width:768px){
+.zhaopin-list{
+    height: 300px;
+}
+.aboutus-list{
+    height: 250px;
+}
+}
+@media(max-width:920px){
+.header-list a {
+    font-size: 14px;
+}
+}
+
+
+.col-lg-1,.col-md-1,.col-sm-1,.col-xs-1,
+.col-lg-2,.col-md-2,.col-sm-2,.col-xs-2,
+.col-lg-3,.col-md-3,.col-sm-3,.col-xs-3,
+.col-lg-4,.col-md-4,.col-sm-4,.col-xs-4,
+.col-lg-5,.col-md-5,.col-sm-5,.col-xs-5,
+.col-lg-6,.col-md-6,.col-sm-6,.col-xs-6,
+.col-lg-7,.col-md-7,.col-sm-7,.col-xs-7,
+.col-lg-8,.col-md-8,.col-sm-8,.col-xs-8,
+.col-lg-9,.col-md-9,.col-sm-9,.col-xs-9,
+.col-lg-10,.col-md-10,.col-sm-10,.col-xs-10,
+.col-lg-11,.col-md-11,.col-sm-11,.col-xs-11,
+.col-lg-12,.col-md-12,.col-sm-12,.col-xs-12
+{
+    padding-right: 5px;
+    padding-left: 5px;
+}

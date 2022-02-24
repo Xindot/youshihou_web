@@ -1,0 +1,126 @@
+.touchCarousel {
+    margin-bottom: -30px;
+}
+.touchCarousel img {
+    width: 100%;
+}
+    #slides {
+      display: none
+    }
+
+#slides .slidesjs-navigation {
+    position: absolute;
+    z-index: 1000;
+    color: rgba(255, 255, 255, 0.5)!important;
+    height: 100%;
+    top: 0px;
+    padding-top: 25%;
+    width: 10%;
+}
+#slides .slidesjs-navigation:hover{
+	background-color: rgba(255, 255, 255, 0.2);
+}
+a.slidesjs-previous.slidesjs-navigation {
+    left: 5px;
+}
+a.slidesjs-next.slidesjs-navigation {
+    right: 5px;
+}
+
+
+    .slidesjs-pagination {
+      margin: 6px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(images/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+
+
+	
+	
+    #slides {
+      display: none
+    }
+
+[class^="icon-"], [class*=" icon-"] {
+    text-decoration: none;
+}
+
+
+	
+	
+	
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+
+    }
+
+	
+    /* 补加其他格式 */
+	.video-content {
+		max-width: 800px;
+		top:60px;
+	}
+	.feature a {
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+	}
