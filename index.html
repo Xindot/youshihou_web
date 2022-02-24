@@ -1,216 +1,229 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-  <head>
-	<meta charset="gb2312">
+
+<head>
+	<meta charset="UTF-8">
 	<meta name="renderer" content="webkit">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
-    <!-- ����3��meta��ǩ*����*������ǰ�棬�κ��������ݶ�*����*������� -->
-    <title>��ʳ��</title>
-	<meta name="description" content="��ѡ������ʳԤ��App��Ϊ����ԭʳ��֮��" />
-	<meta name="keywords" content="��ʳ��,APP,����,Ʒ��,��ʳ,����,��ѡ,������,����Ʒ��,��ζ">
+	<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+	<title>有食候</title>
+	<meta name="description" content="精选限量美食预定App，为您还原食物之美" />
+	<meta name="keywords" content="有食候,APP,官网,品质,美食,生活,精选,高质量,生活品质,美味">
 	<link rel="icon" href="favicon.ico" mce_href="favicon.ico" type="image/x-icon">
-    <!-- Bootstrap -->
+	<!-- Bootstrap -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css" >
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
       <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
+</head>
+
+<body>
 
 
-<div class="col-sm-12 navbar-fixed-top header-top text-center">
-	<div class="col-sm-1"></div>
-	<div class="col-sm-10">
-		<div class="width-1008">
-			<div class="col-sm-5">
-				<ul class="list-inline list-unstyled">
-					<li class="col-sm-4 hidden-lg"></li>
-					<li class="col-sm-4 youshihou-logo"><a href="./"><img src="./images/common_logo.png" style="width:60%;max-width:105px;"></a></li>
-					<li class="col-sm-4"></li>
-					<li class="col-sm-4 visible-lg"></li>
-				</ul>
-			</div>
-			<div class="play-video hidden-lg"><a href="#main-video"><i class="icon icon-film"></i></a></div>
-			<div class="show-menu hidden-lg"><i class="icon icon-reorder"></i></div>
-			<div class="col-sm-7 hide-menu" style="display:none;">
-				<ul class="list-inline list-unstyled header-list">
-					<li class="col-sm-3 current"><a href="./">��ҳ</a></li>
-					<li class="col-sm-3"><a href="./AboutUs">��������</a></li>
-					<li class="col-sm-3"><a href="./JoinUs">��������</a></li>
-					<li class="col-sm-3"><a href="./BusinessCooperation">�������</a></li>
-				</ul>
-			</div>
-			<div class="col-sm-7 visible-lg">
-				<ul class="list-inline list-unstyled header-list">
-					<li class="col-sm-3 current"><a href="./">��ҳ</a></li>
-					<li class="col-sm-3"><a href="./AboutUs">��������</a></li>
-					<li class="col-sm-3"><a href="./JoinUs">��������</a></li>
-					<li class="col-sm-3"><a href="./BusinessCooperation">�������</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<div class="col-sm-1"></div>
-</div>
-	
-
-
-<div class="col-sm-12 text-center main-bigbg">
-	<div class="download-app Fading Entrances fadeInUp animated">
-		<h2><img src="images/index_bg_word.png" style="width:90%;max-width:502px;margin-bottom:10px;"></h2>
-		<h3>
-		<p><a data-toggle="modal" href="#download-modal" class="btn btn-download-app">����APP</a></p>
-		</h3>
-	</div>
-</div>
-
-<!-- ģ̬�� -->
-<div id="download-modal" class="modal Bouncing Entrances bounceInDown animated" style="display:none ;">
-	<div class="modal-header">
-		<a class="close" data-dismiss="modal"><i class="icon icon-remove"></i></a>
-		<h4>���ء���ʳ��APP</h4>
-	</div>
-	<div class="modal-body text-center Fading Entrances fadeIn animated">
-		<h4><img src="images/download_barcode.png"></h4>
-		<p>ɨ���ά�� / ����ʶ���ά��</p>
-	</div>
-	<div class="modal-footer">
-		<a href="https://itunes.apple.com/cn/app/you-shi-hou-pin-zhi-mei-shi/id978628927?mt=8" target="_blank" class="btn btn-taobao-color">iOS����</a>
-		<a href="http://apps.wandoujia.com/redirect?signature=2afe0c0&url=http%3A%2F%2Fapk.wandoujia.com%2F1%2Fd5%2F91c6f28e71dfdf45634b4ff2f2de3d51.apk&pn=best.sometimes&md5=91c6f28e71dfdf45634b4ff2f2de3d51&apkid=16143216&vc=50&size=9941357&pos=t%2Ftag%2F%E9%A4%90%E5%8E%85%E6%8E%A8%E8%8D%90%2Fdetail#name=��ʳ��&icon=http://img.wdjimg.com/mms/icon/v1/c/4c/55cf37a8d9f21f551671e7318eeab4cc_68_68.png&content-type=application" target="_blank" class="btn btn-taobao-color-border">Android����</a>
-	</div>
-</div>
-
-<div class="col-sm-12 text-center main-video" id="main-video">
-	<div class="col-sm-1"></div>
-	<div class="col-sm-10">
-		<div class="width-1008">
-			<div class="col-sm-12 text-left">
-			<br/>
-			<h3>��Ƶ</h3>
-			<h5>����˵���˽�һ��ʳ�ﲻ����ҪƷ�����Ķ���ζ������ҪƷζ������Ķ��˹��¡�<br/>��ʳ��ԭ����Ƶ�������߽�ʳ������ڣ�̽��ʳ�ġ��������Լ���֮�������ʳ�͵Ĺ��¡�</h5>
-			</div>
-			<div class="col-sm-12" id="video-modal">
-				<video src="http://7u2mzp.com2.z0.glb.qiniucdn.com/video_20151016_xiaohongzuan"  width="100%" height="100%" controls="controls" poster="BusinessCooperation/images/xiaohongzuan1200.png"></video>
-			</div>
-			
-		</div>	
-	</div>
-	<div class="col-sm-1"></div>
-</div>
-
-<div class="col-sm-12 text-center main-restaurant">
-
-	<div class="col-sm-1"></div>
-	<div class="col-sm-10">
-		<div class="width-1008">
-			<div class="col-sm-12 text-left">
-			<h3>����</h3>
-			<h5>�����ʱ�����ԣ��Ѿ���ֻ�Ǽ������¶�����Ҫ�Գ���ϸ���Գ�Ʒ�ʡ�<br/>��ʳ���Ƽ���ÿһ�ݶ�����ʳ����֪�������뾫ѡ����������ƣ�����ʱ�ʳ�ĺ����������ر��������ڴ������ӵ���ҵ�����У���ԭʳ��֮����</h5>
-			</div>
-			<ul class="list-inline list-unstyled">
-				<li class="col-sm-4">
-					<img class="main-restaurant-up Fading Entrances fadeInDown animated" src="images/index_image01.png" >
-					<img class="main-restaurant-down Fading Entrances fadeInUp animated" src="images/index_image02.png">
-				</li>
-				<li class="col-sm-4">
-					<img class="main-restaurant-up Fading Entrances fadeInDown animated" src="images/index_image03.png">
-					<img class="main-restaurant-down2 Fading Entrances fadeInUp animated" src="images/index_image04.png">
-				</li>
-				<li class="col-sm-4">
-					<img class="main-restaurant-up Fading Entrances fadeInDown animated" src="images/index_image05.png">
-					<img class="main-restaurant-down Fading Entrances fadeInUp animated" src="images/index_image06.png">
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-sm-1"></div>
-
-</div>
-
-<div class="col-sm-12 text-center main-activity">
-	<div class="col-sm-1"></div>
-	<div class="col-sm-10">
-		<div class="width-1008">
-			<ul class="list-inline list-unstyled">
-				<li class="col-sm-4 text-left">
-					<div class="col-sm-12 text-left visible-lg"><br/><br/></div>
-					<div class="col-sm-12 text-left visible-lg"><br/><br/></div>
-					<div class="col-sm-12 text-left Fading Entrances fadeInUp animated index_image_phone">
-					<h3>�</h3>
-					<h5>������Ъ�����ֹ�����ʵ�����������ʵ�ζ����<br/>һԪ��ɱ�������ⵥ����ʳ�����������Գԡ�����ʳ�򲻶��ڵ���ʳ��������ζ�١�����������</h5>
-					</div>
-					<div class="col-sm-12 text-left visible-lg"><br/><br/><br/><br/><br/></div>
-					<div class="col-sm-12 text-left Fading Entrances fadeInUp animated index_image_phone">
-					<h3>ר��</h3>
-					<h5>�����������Ҷ���æµ����ʱ������ͣһ�����Լ�����ѳ�ȥ�ȸ��衢̸���졣<br/>ÿ��ר��ֱ���Բ�ͬ���������϶�Ҳ�������ɫ��ʳ������������ʱ������������פ��</h5>
-					</div>					
-				</li>
-				<li class="col-sm-4 Fading Entrances fadeInDown animated index_image_phone">
-					<img src="images/index_image_phone.png">
-				</li>
-				<li class="col-sm-4 text-left">
-					<div class="col-sm-12 text-left visible-lg"><br/><br/><br/><br/></div>
-					<div class="col-sm-12 text-left visible-lg"><br/><br/><br/><br/></div>
-					<div class="col-sm-12 text-left Fading Entrances fadeInUp animated index_image_phone">
-					<h3>ר��</h3>
-					<h5>ÿһ�����������ζ����ֵ���������������Ӱ������ζ��<br/>Ҳ�����ǳԻ���Ҳ�����ǳԻ��������ǲ�����ʶ��<br/>���ڳԻ�ר�����ᴥ�����Ի��ǵ��������������������������Զ��</h5>
-					</div>
-					<div class="col-sm-12 text-left"></div>
-				</li>
-			</ul>
-		</div>		
-	</div>
-	<div class="col-sm-1"></div>
-</div>
-
-<div class="col-sm-12 text-left footer">
-	<div class="col-sm-1"></div>
-	<div class="col-sm-10 footer-list">
-		<div class="width-1008">
-			<ul class="list-inline list-unstyled">
-				<li class="col-sm-5">
-					<h4>��ϵ����</h4>
-					<h5>Tel��400-877-8207</h5>
-					<h5>Email��youshihou@sometimes.best</h5>
-				</li>
-				<li class="col-sm-5">
-					<h4>��ע����</h4>
+	<div class="col-sm-12 navbar-fixed-top header-top text-center">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-10">
+			<div class="width-1008">
+				<div class="col-sm-5">
 					<ul class="list-inline list-unstyled">
-						<li><a href="http://weibo.com/u/5550789089" target="_blank"><p class="weibo"></p></a></li>
-						<li><a data-toggle="modal" href="#modal-wechat"><p class="wechat"></p></a></li>
-						<!-- ģ̬�� ΢�Ŷ�ά�� -->
-						<div id="modal-wechat" class="modal-wechat Bouncing Entrances bounceInUp animated" style="display:none;">
-							<img src="images/web-wxdyh.jpg"/>
-							<p class="text-center">ɨ���ά�� / ����ʶ���ά��</p>
-						</div>
+						<li class="col-sm-4 hidden-lg"></li>
+						<li class="col-sm-4 youshihou-logo"><a href="./"><img src="./images/common_logo.png"
+									style="width:60%;max-width:105px;"></a></li>
+						<li class="col-sm-4"></li>
+						<li class="col-sm-4 visible-lg"></li>
 					</ul>
-				</li>	
-				<li class="col-sm-2"></li>
-			</ul>
+				</div>
+				<div class="play-video hidden-lg"><a href="#main-video"><i class="icon icon-film"></i></a></div>
+				<div class="show-menu hidden-lg"><i class="icon icon-reorder"></i></div>
+				<div class="col-sm-7 hide-menu" style="display:none;">
+					<ul class="list-inline list-unstyled header-list">
+						<li class="col-sm-3 current"><a href="./">首页</a></li>
+						<li class="col-sm-3"><a href="./AboutUs">关于我们</a></li>
+						<li class="col-sm-3"><a href="./JoinUs">加入我们</a></li>
+						<li class="col-sm-3"><a href="./BusinessCooperation">商务合作</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-7 visible-lg">
+					<ul class="list-inline list-unstyled header-list">
+						<li class="col-sm-3 current"><a href="./">首页</a></li>
+						<li class="col-sm-3"><a href="./AboutUs">关于我们</a></li>
+						<li class="col-sm-3"><a href="./JoinUs">加入我们</a></li>
+						<li class="col-sm-3"><a href="./BusinessCooperation">商务合作</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-1"></div>
+	</div>
+
+
+
+	<div class="col-sm-12 text-center main-bigbg">
+		<div class="download-app Fading Entrances fadeInUp animated">
+			<h2><img src="images/index_bg_word.png" style="width:90%;max-width:502px;margin-bottom:10px;"></h2>
+			<h3>
+				<p><a data-toggle="modal" href="#download-modal" class="btn btn-download-app">下载APP</a></p>
+			</h3>
 		</div>
 	</div>
-	<div class="col-sm-1"></div>
-	<div class="col-sm-12 text-center">
-	<p class="copyright">&copy;2015 sometimes.net.cn&nbsp;&nbsp;&nbsp;������ʳ��Ϣ�������޹�˾&nbsp;&nbsp;&nbsp;��ICP��15002492��-1</p>
-	</div>
-</div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<!-- 模态框 -->
+	<div id="download-modal" class="modal Bouncing Entrances bounceInDown animated" style="display:none ;">
+		<div class="modal-header">
+			<a class="close" data-dismiss="modal"><i class="icon icon-remove"></i></a>
+			<h4>下载「有食候」APP</h4>
+		</div>
+		<div class="modal-body text-center Fading Entrances fadeIn animated">
+			<h4><img src="images/download_barcode.png"></h4>
+			<p>扫描二维码 / 长按识别二维码</p>
+		</div>
+		<div class="modal-footer">
+			<a href="https://itunes.apple.com/cn/app/you-shi-hou-pin-zhi-mei-shi/id978628927?mt=8" target="_blank"
+				class="btn btn-taobao-color">iOS下载</a>
+			<a href="http://apps.wandoujia.com/redirect?signature=2afe0c0&url=http%3A%2F%2Fapk.wandoujia.com%2F1%2Fd5%2F91c6f28e71dfdf45634b4ff2f2de3d51.apk&pn=best.sometimes&md5=91c6f28e71dfdf45634b4ff2f2de3d51&apkid=16143216&vc=50&size=9941357&pos=t%2Ftag%2F%E9%A4%90%E5%8E%85%E6%8E%A8%E8%8D%90%2Fdetail#name=有食候&icon=http://img.wdjimg.com/mms/icon/v1/c/4c/55cf37a8d9f21f551671e7318eeab4cc_68_68.png&content-type=application"
+				target="_blank" class="btn btn-taobao-color-border">Android下载</a>
+		</div>
+	</div>
+
+	<div class="col-sm-12 text-center main-video" id="main-video">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-10">
+			<div class="width-1008">
+				<div class="col-sm-12 text-left">
+					<br />
+					<h3>视频</h3>
+					<h5>有人说，了解一份食物不仅仅要品尝它的独特味道，还要品味它背后的动人故事。<br />有食候原创视频，带你走进食物的内在，探索食材、餐厅，以及与之相连结的食客的故事。</h5>
+				</div>
+				<div class="col-sm-12" id="video-modal">
+					<video src="http://7u2mzp.com2.z0.glb.qiniucdn.com/video_20151016_xiaohongzuan" width="100%" height="100%"
+						controls="controls" poster="BusinessCooperation/images/xiaohongzuan1200.png"></video>
+				</div>
+
+			</div>
+		</div>
+		<div class="col-sm-1"></div>
+	</div>
+
+	<div class="col-sm-12 text-center main-restaurant">
+
+		<div class="col-sm-1"></div>
+		<div class="col-sm-10">
+			<div class="width-1008">
+				<div class="col-sm-12 text-left">
+					<h3>餐厅</h3>
+					<h5>在这个时代，吃，已经不只是件随便的事儿，更要吃出精细，吃出品质。<br />有食候推荐的每一份定制美食都由知名达人与精选餐厅合作设计，根据时令、食材和主厨背景特别制作，期待在嘈杂的商业环境中，还原食物之美。
+					</h5>
+				</div>
+				<ul class="list-inline list-unstyled">
+					<li class="col-sm-4">
+						<img class="main-restaurant-up Fading Entrances fadeInDown animated" src="images/index_image01.png">
+						<img class="main-restaurant-down Fading Entrances fadeInUp animated" src="images/index_image02.png">
+					</li>
+					<li class="col-sm-4">
+						<img class="main-restaurant-up Fading Entrances fadeInDown animated" src="images/index_image03.png">
+						<img class="main-restaurant-down2 Fading Entrances fadeInUp animated" src="images/index_image04.png">
+					</li>
+					<li class="col-sm-4">
+						<img class="main-restaurant-up Fading Entrances fadeInDown animated" src="images/index_image05.png">
+						<img class="main-restaurant-down Fading Entrances fadeInUp animated" src="images/index_image06.png">
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-sm-1"></div>
+
+	</div>
+
+	<div class="col-sm-12 text-center main-activity">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-10">
+			<div class="width-1008">
+				<ul class="list-inline list-unstyled">
+					<li class="col-sm-4 text-left">
+						<div class="col-sm-12 text-left visible-lg"><br /><br /></div>
+						<div class="col-sm-12 text-left visible-lg"><br /><br /></div>
+						<div class="col-sm-12 text-left Fading Entrances fadeInUp animated index_image_phone">
+							<h3>活动</h3>
+							<h5>生命不歇，活动不止，精彩的生活带来精彩的味道。<br />一元秒杀、砍价免单、美食测评、餐厅试吃……有食候不定期的美食活动，让你的味蕾“动”起来。</h5>
+						</div>
+						<div class="col-sm-12 text-left visible-lg"><br /><br /><br /><br /><br /></div>
+						<div class="col-sm-12 text-left Fading Entrances fadeInUp animated index_image_phone">
+							<h3>专题</h3>
+							<h5>纷乱生活里大家都很忙碌，有时候忘了停一会儿，约上朋友出去喝个茶、谈个天。<br />每期专题分别针对不同场景，集合多家餐厅的特色美食，让最烂漫的时光在你的舌尖留驻。</h5>
+						</div>
+					</li>
+					<li class="col-sm-4 Fading Entrances fadeInDown animated index_image_phone">
+						<img src="images/index_image_phone.png">
+					</li>
+					<li class="col-sm-4 text-left">
+						<div class="col-sm-12 text-left visible-lg"><br /><br /><br /><br /></div>
+						<div class="col-sm-12 text-left visible-lg"><br /><br /><br /><br /></div>
+						<div class="col-sm-12 text-left Fading Entrances fadeInUp animated index_image_phone">
+							<h3>专栏</h3>
+							<h5>每一分心有所忆的味道都值得用曼妙的文字与影像来回味。<br />也许你是吃货。也许他是吃货。但你们并不相识。<br />而在吃货专栏里，你会触碰到吃货们的满腹柔软，与他们心中理想的远大。</h5>
+						</div>
+						<div class="col-sm-12 text-left"></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-sm-1"></div>
+	</div>
+
+	<div class="col-sm-12 text-left footer">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-10 footer-list">
+			<div class="width-1008">
+				<ul class="list-inline list-unstyled">
+					<li class="col-sm-5">
+						<h4>联系我们</h4>
+						<h5>Tel：400-698-1178</h5>
+						<h5>Email：nrcy@youshihou.cn</h5>
+					</li>
+					<li class="col-sm-5">
+						<h4>关注我们</h4>
+						<ul class="list-inline list-unstyled">
+							<li><a href="http://weibo.com/u/5550789089" target="_blank">
+									<p class="weibo"></p>
+								</a></li>
+							<li><a data-toggle="modal" href="#modal-wechat">
+									<p class="wechat"></p>
+								</a></li>
+							<!-- 模态框 微信二维码 -->
+							<div id="modal-wechat" class="modal-wechat Bouncing Entrances bounceInUp animated" style="display:none;">
+								<img src="images/web-wxdyh.jpg" />
+								<p class="text-center">扫描二维码 / 长按识别二维码</p>
+							</div>
+						</ul>
+					</li>
+					<li class="col-sm-2"></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-sm-1"></div>
+		<div class="col-sm-12 text-center">
+			<p class="copyright">&copy;2015 youshihou.cn&nbsp;&nbsp;&nbsp;杭州有食候科技有限公司&nbsp;&nbsp;&nbsp;浙ICP备1507***7号-1
+			</p>
+		</div>
+	</div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap-modal.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
 
 
-	
+
 
 </body>
+
 </html>
